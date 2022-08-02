@@ -1,0 +1,213 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+ -moz-appearance: textfield;
+}
+body {
+ font-size: 14px;
+ text-decoration: none;
+ overflow: auto;
+}
+.header-after {
+ display: block;
+ background-color: green;
+ height: 20px;
+}
+.main-header {
+ height: 70px;
+}
+.return .main-header {
+ height: 20px;
+}
+.return-date {
+ width: 12%;
+ min-width: 100px;
+}
+.sale-header {
+ width: 870px;
+ height: fit-content;
+ min-height: 26px;
+}
+.today .sale-header {
+ width: 70%;
+}
+.sales-table {
+ height: fit-content;
+ min-height: 26px;
+}
+.today .sales-table {
+ width: 70%;
+ height: fit-content;
+ min-height: 35px;
+}
+.totals {
+ width: 16%;
+ height: fit-content;
+ min-height: 35px;
+}
+div.expenses,
+.expenses-table {
+ width: 30%;
+ height: fit-content;
+ min-height: 26px;
+}
+.today .expenses,
+.today .expenses-table {
+ width: 30%;
+ height: fit-content;
+ min-height: 35px;
+}
+
+input,
+select {
+ background-color: transparent;
+}
+input:focus-visible,
+select:focus-visible {
+ outline: none;
+}
+
+.qty {
+ /* width: 5.32%; */
+ min-width: 60px;
+}
+td.activations,
+div.activations .vendas {
+ /* width: 11.96%; */
+ min-width: 105px;
+}
+.details {
+ /* width: 18.26%; */
+ min-width: 105px;
+}
+.cash,
+.mb,
+.unit-cost {
+ /* width: 11.62%; */
+ min-width: 90px;
+}
+.submit {
+ /* width: 13.28%; */
+ min-width: 105px;
+}
+.update {
+ width: 23.28%;
+ min-width: 105px;
+}
+/* .total-cell {
+ // width: 33.33%;
+ min-width: 65px;
+} */
+.expense.qty {
+ /* width: 9.06%; */
+ width: 60px;
+}
+.expense.item {
+ /* width: 36.25%; */
+ min-width: 110px;
+}
+.expense.price {
+ /* width: 15.2%; */
+ min-width: 70px;
+}
+.expense.submit {
+ /* width: 37.22%; */
+ min-width: 70px;
+}
+
+.output-total-cell {
+ /* width: 5.33%; */
+ min-width: 75px;
+}
+.table-responsive {
+ overflow: auto;
+ height: 100px;
+}
+.table-responsive thead {
+ position: sticky;
+ top: 0;
+ z-index: 1;
+}
+.summary .sales {
+ width: 62.5%;
+}
+.summary .category {
+ width: 37.5%;
+}
+.tableFixHead {
+ overflow: auto;
+}
+.tableFixHead thead th {
+ position: sticky;
+ top: -2px;
+ z-index: 1;
+}
+
+#sidebar {
+ --tw-translate-x: -100%;
+}
+#menu-close-icon {
+ display: none;
+}
+
+#menu-open:checked ~ #sidebar {
+ --tw-translate-x: 0;
+}
+#menu-open:checked ~ * #mobile-menu-button {
+ background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+}
+#menu-open:checked ~ * #menu-open-icon {
+ display: none;
+}
+#menu-open:checked ~ * #menu-close-icon {
+ display: block;
+}
+
+@media (min-width: 768px) {
+ #sidebar {
+  --tw-translate-x: 0;
+ }
+}
+
+.menu-tree ul li:last-child:before {
+ background: #fff;
+ height: auto;
+ top: 1em;
+ bottom: 0;
+}
+
+.menu-tree li button {
+ text-decoration: none;
+ /* color: #369; */
+ border: none;
+ background: transparent;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+ outline: 0;
+}
+
+.menu-tree li button:active {
+ text-decoration: none;
+ /* color: #369; */
+ border: none;
+ background: transparent;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+ outline: 0;
+}
+
+.menu-tree li button:focus {
+ text-decoration: none;
+ /* color: #369; */
+ border: none;
+ background: transparent;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+ outline: 0;
+}

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+ .menu-tree li .collapse {
+  @apply hidden;
+ }
+ .open-menu .indicator {
+  @apply -rotate-90;
+ }
+ .menu-tree li .expand {
+  @apply block;
+ }
+ .menu-tree li.active {
+  @apply bg-brandYellow text-gray-800;
+ }
+}

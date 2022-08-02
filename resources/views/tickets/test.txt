@@ -1,0 +1,8 @@
+if ($keywordCondition == "" && $timeCondition == "") {
+            echo '<div class="fixed-top alert alert-danger alert-dismissible"><button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>At least One field is required</strong></div>';
+        } else {
+            $filtersql = "SELECT * from ticket WHERE `username`='$username' $keywordCondition $timeCondition ORDER BY `id`";
+            $result = mysqli_query($conn, $filtersql);
+            $fetch = mysqli_fetch_all($result);
+        }
