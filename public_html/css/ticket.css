@@ -49,8 +49,8 @@ li.nav-item {
  background-color: var(--light-black);
 }
 .form-label {
- padding: 5px;
- margin: 6px 20px 4px 0px;
+ padding: 2px 8px;
+ margin: 0px 20px 0px 0px;
  font-weight: bold;
 }
 a.nav-btns {

@@ -11,30 +11,30 @@
             <div class="form-header">
               <h5 class="">{{ __('Customer') }}</h5>
             </div>
-            <div class="py-2">
-              <div class="row">
+            <div class="">
+              <div class="row px-2">
                 <label for="contact" class="col form-label">{{ __('Contact') }}</label>
-                <button class="col btn btn-warning" id="search" onclick="event.preventDefault()">{{ __('Search') }}</button>
+                <button class="col btn btn-sm btn-warning" id="search" onclick="event.preventDefault()">{{ __('Search') }}</button>
               </div>
               <input type="number" class="form-control" id="contact" name="contact" placeholder="{{ __('Contact') }}" required>
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="client_name" class="form-label">{{ __('Name') }}</label>
               <input type="text" class="form-control" id="client_name" name="client_name" placeholder="{{ __('Name') }}">
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="n_i_f" class="form-label">N.I.F.</label>
               <input type="text" class="form-control" id="n_i_f" name="n_i_f" placeholder="N.I.F.">
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="email" class="form-label">{{ __('Email') }}</label>
               <input type="email" class="form-control" id="email" name="email" placeholder="{{ __('Name') }}">
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="city" class="form-label">{{ __('City') }}</label>
               <input type="text" class="form-control" id="city" name="city" placeholder="{{ __('City') }}">
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="address" class="form-label">{{ __('Address') }}</label>
               <textarea name="address" id="address" cols="30" rows="3" class="form-control"></textarea>
             </div>
@@ -43,7 +43,7 @@
             <div class="form-header">
               <h5 class="">{{ __('Device Details') }}</h5>
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="type" class="form-label">{{ __('Type') }}</label>
               <select id="type" name="type" class="form-select">
                 <option value="{{ __('Mobile') }}">{{ __('Mobile') }}</option>
@@ -51,19 +51,19 @@
                 <option value="{{ __('Laptop') }}">{{ __('Laptop') }}</option>
               </select>
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="mark" class="form-label">{{ __('Mark') }}</label>
               <input type="text" class="form-control" id="mark" name="mark" id="mark" placeholder="{{ __('Mark') }}">
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="model" class="form-label">{{ __('Model') }}</label>
               <input type="text" class="form-control" name="model" id="model" placeholder="{{ __('Model') }}">
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="imei_no" class="form-label me-1">IMEI NO.</label>
               <input type="number" class="form-control" name="imei_no" id="imei_no" placeholder="IMEI NO.">
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="warranty" class="form-label">{{ __('Warranty') }}</label>
               <select name="warranty" id="warranty" class="form-select">
                 <option value="" selected></option>
@@ -71,7 +71,7 @@
                 <option value="{{ __('No Warranty') }}">{{ __('No Warranty') }}</option>
               </select>
             </div>
-            <div class="py-2">
+            <div class="">
               <label for="comments" class="form-label">{{ __('Comments') }}</label>
               <textarea name="comments" id="comments" rows="3" class="form-control"></textarea>
             </div>
